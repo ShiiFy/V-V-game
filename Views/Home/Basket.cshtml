@@ -21,7 +21,7 @@
         <div class="package-wrapper">
             <div class="package-status">
                 <h3 class="package__header">Package Status</h3>
-                <a href="index.html" class="package__link button">Main Page</a>
+                @Html.ActionLink("Home Page", "Index", "Home", new { area = "" }, new { @class = "package__link button" })
             </div>
         </div>
         <!-- /.package-wrapper -->
